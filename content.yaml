@@ -1,0 +1,20 @@
+# Plain text bio, HTML tags are allowed
+bio: >
+  Lorem ipsum...
+
+experience:
+  - title: "" # Required, HTML allowed
+    organization: "" # Company name, required
+    period: "" # Required
+    description: "" # HTML allowed
+
+education:
+  - title: "" # Required, HTML allowed
+    organization: "" # Institution name, required
+    period: "" # Required
+
+projects:
+  - title: "" # Required, HTML allowed
+    description: "" # HTML allowed
+    period: "" # Required
+    url: ~ # Omit with ~
