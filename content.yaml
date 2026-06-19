@@ -13,6 +13,7 @@ nav:
 # Personal data
 personal:
   name: "MLH Fellow"
+  picture: "tomas.jpg"
   bio: >-   # Plain text bio, HTML tags are allowed
     My name is Tomás Ortín Fernández (quanrong). I'm from Spain, living in a little
     mountain village in the North. I have contributed patches to the
