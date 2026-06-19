@@ -10,6 +10,7 @@ nav:
 # Personal data
 personal:
   name: "MLH Fellow"
+  picture: "logo.jpg"
   bio: >-   # Plain text bio, HTML tags are allowed
     Lorem ipsum...
 
