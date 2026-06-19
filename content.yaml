@@ -6,6 +6,9 @@ nav:
   - name: "Projects"
     url: "/projects"
     template: "projects.html"
+  - name: "Hobbies"
+    url: "/hobbies"
+    template: "hobbies.html"
   - name: "Places Visited"
     url: "/travel"
     template: "travel.html"
@@ -33,6 +36,11 @@ projects:
     description: "" # HTML allowed
     period: "" # Required
     url: ~ # Omit with ~
+
+hobbies:
+  - title: "Reading" # Required
+    picture: "hobby-reading.jpg" 
+    description: "Example hobby. My favorite book is Lorem Ipsum." # HTML allowed
 
 places:
   - name: "Amsterdam" # Example place
