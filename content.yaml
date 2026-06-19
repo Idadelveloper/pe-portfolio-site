@@ -9,6 +9,9 @@ nav:
   - name: "Hobbies"
     url: "/hobbies"
     template: "hobbies.html"
+  - name: "Places Visited"
+    url: "/travel"
+    template: "travel.html"
 
 # Personal data
 personal:
@@ -91,3 +94,188 @@ projects:
       GNU/Linux systems.
     period: "2021 –"
     url: ~
+
+places:
+  - name: "Xiamen"
+    lat: 24.4798
+    lon: 118.0894
+  - name: "Amsterdam"
+    lat: 52.3676
+    lon: 4.9041
+  - name: "San Francisco"
+    lat: 37.7749
+    lon: -122.4194
+  - name: "Yosemite"
+    lat: 37.8651
+    lon: -119.5383
+  - name: "Ceuta"
+    lat: 35.8894
+    lon: -5.3213
+  - name: "Geneva"
+    lat: 46.2044
+    lon: 6.1432
+  - name: "Madrid"
+    lat: 40.4168
+    lon: -3.7038
+  - name: "Barcelona"
+    lat: 41.3851
+    lon: 2.1734
+  - name: "Gijón"
+    lat: 43.5322
+    lon: -5.6611
+  - name: "Toulouse"
+    lat: 43.6047
+    lon: 1.4442
+  - name: "Manchester"
+    lat: 53.4808
+    lon: -2.2426
+  - name: "London"
+    lat: 51.5074
+    lon: -0.1278
+  - name: "Marseille"
+    lat: 43.2965
+    lon: 5.3698
+  - name: "Majorca"
+    lat: 39.5696
+    lon: 2.6502
+  - name: "Ibiza"
+    lat: 38.9067
+    lon: 1.4206
+  - name: "Rome"
+    lat: 41.9028
+    lon: 12.4964
+  - name: "'s-Hertogenbosch"
+    lat: 51.6978
+    lon: 5.3037
+  - name: "Torrevieja"
+    lat: 37.9781
+    lon: -0.6814
+  - name: "Bern"
+    lat: 46.9480
+    lon: 7.4474
+  - name: "Zurich"
+    lat: 47.3769
+    lon: 8.5417
+  - name: "Rotterdam"
+    lat: 51.9244
+    lon: 4.4777
+  - name: "Paris"
+    lat: 48.8566
+    lon: 2.3522
+  - name: "Santander"
+    lat: 43.4623
+    lon: -3.8099
+  - name: "Girona"
+    lat: 41.9794
+    lon: 2.8214
+  - name: "Toledo"
+    lat: 39.8628
+    lon: -4.0273
+  - name: "Benasque"
+    lat: 42.6089
+    lon: 0.5228
+  - name: "Santo Domingo de la Calzada"
+    lat: 42.4403
+    lon: -2.9524
+  - name: "Thoiry"
+    lat: 46.2372
+    lon: 5.9806
+  - name: "Reno"
+    lat: 39.5296
+    lon: -119.8138
+  - name: "Salamanca"
+    lat: 40.9701
+    lon: -5.6635
+  - name: "Valladolid"
+    lat: 41.6523
+    lon: -4.7245
+  - name: "Zaragoza"
+    lat: 41.6488
+    lon: -0.8891
+  - name: "Burgos"
+    lat: 42.3440
+    lon: -3.6969
+  - name: "León"
+    lat: 42.5987
+    lon: -5.5671
+  - name: "Palencia"
+    lat: 42.0097
+    lon: -4.5288
+  - name: "Valencia"
+    lat: 39.4699
+    lon: -0.3763
+  - name: "Alicante"
+    lat: 38.3452
+    lon: -0.4815
+  - name: "Kandersteg"
+    lat: 46.4977
+    lon: 7.6716
+  - name: "Eindhoven"
+    lat: 51.4416
+    lon: 5.4697
+  - name: "The Hague"
+    lat: 52.0705
+    lon: 4.3007
+  - name: "San Sebastián"
+    lat: 43.3183
+    lon: -1.9812
+  - name: "Irún"
+    lat: 43.3389
+    lon: -1.7881
+  - name: "Ciudad Rodrigo"
+    lat: 40.5978
+    lon: -6.5344
+  - name: "Portbou"
+    lat: 42.4295
+    lon: 3.1617
+  - name: "Figueres"
+    lat: 42.2669
+    lon: 2.9604
+  - name: "Huesca"
+    lat: 42.1401
+    lon: -0.4089
+  - name: "Córdoba"
+    lat: 37.8882
+    lon: -4.7794
+  - name: "Granada"
+    lat: 37.1773
+    lon: -3.5986
+  - name: "Sevilla"
+    lat: 37.3891
+    lon: -5.9845
+  - name: "Segovia"
+    lat: 40.9429
+    lon: -4.1088
+  - name: "Ávila"
+    lat: 40.6564
+    lon: -4.6816
+  - name: "Mérida"
+    lat: 38.9166
+    lon: -6.3442
+  - name: "Ségobriga"
+    lat: 39.885
+    lon: -2.813
+  - name: "Avignon"
+    lat: 43.9493
+    lon: 4.8055
+  - name: "L'Aquila"
+    lat: 42.3498
+    lon: 13.3995
+  - name: "Chamonix"
+    lat: 45.9237
+    lon: 6.8694
+  - name: "Palo Alto"
+    lat: 37.4419
+    lon: -122.1430
+  - name: "Monterey"
+    lat: 36.6002
+    lon: -121.8947
+  - name: "Sant Celoni"
+    lat: 41.6921
+    lon: 2.4956
+  - name: "Colmenar Viejo"
+    lat: 40.6611
+    lon: -3.7656
+  - name: "Rubí"
+    lat: 41.4933
+    lon: 2.0324
