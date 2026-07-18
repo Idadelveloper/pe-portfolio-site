@@ -9,6 +9,7 @@ from playhouse.shortcuts import model_to_dict
 
 load_dotenv()
 app = Flask(__name__)
+
 if os.getenv("TESTING") == "true":
     print("Running in test mode")
     mydb = SqliteDatabase("file:memory?mode=memory&cache=shared", uri=True)
@@ -56,21 +57,22 @@ for page in content['nav']:
         lambda t=template, p=page: render_template(t, page=p)
     )
 
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+
 @app.route('/api/timeline_post', methods=['POST'])
 def post_time_line_post():
-    name = request.form.get('name')
+    name = request.form.get('name', '').strip()
+    email = request.form.get('email', '').strip()
+    post_content = request.form.get('content', '').strip()
+
     if not name:
-        return "Invalid name", 400
+        return 'Invalid name', 400
+    if not post_content:
+        return 'Invalid content', 400
+    if not EMAIL_RE.match(email):
+        return 'Invalid email', 400
 
-    email = request.form.get('email')
-    if not email or not re.match(r"[^@\s]+@[^@\s]+\.[^@\s]+", email):
-        return "Invalid email", 400
-
-    content = request.form.get('content')
-    if not content:
-        return "Invalid content", 400
-
-    timeline_post = TimelinePost.create(name=name, email=email, content=content)
+    timeline_post = TimelinePost.create(name=name, email=email, content=post_content)
 
     return model_to_dict(timeline_post)
 
