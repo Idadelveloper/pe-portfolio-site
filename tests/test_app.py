@@ -74,4 +74,3 @@ class AppTestCase(unittest.TestCase):
         html = response.get_data(as_text=True)
         assert 'Invalid email' in html
 
-

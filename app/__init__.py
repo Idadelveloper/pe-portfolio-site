@@ -42,6 +42,8 @@ if not os.path.isabs(content_path):
 with open(content_path) as f:
     content = yaml.safe_load(f)
 
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+
 @app.context_processor
 def inject_content():
     return content
