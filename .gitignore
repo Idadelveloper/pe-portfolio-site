@@ -7,4 +7,3 @@ flask.sqlite
 .DS_Store
 *#
 *~
-:memory

@@ -9,6 +9,7 @@ from playhouse.shortcuts import model_to_dict
 
 load_dotenv()
 app = Flask(__name__)
+
 if os.getenv("TESTING") == "true":
     print("Running in test mode")
     mydb = SqliteDatabase("file:memory?mode=memory&cache=shared", uri=True)
@@ -57,6 +58,8 @@ for page in content['nav']:
         endpoint,
         lambda t=template, p=page: render_template(t, page=p)
     )
+
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 @app.route('/api/timeline_post', methods=['POST'])
 def post_time_line_post():
