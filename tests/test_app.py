@@ -14,7 +14,7 @@ class AppTestCase(unittest.TestCase):
         html = response.get_data(as_text=True)
         personal = content['personal']
         assert f"<title>{personal['name']}</title>" in html
-        assert f"Hi, I'm {personal['name']}" in html
+        assert f"Hello there, I'm {personal['name']}" in html
         for interest in personal['interests']:
             assert interest in html
         for social in personal['socials']:
